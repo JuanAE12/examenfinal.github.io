@@ -1,0 +1,54 @@
+/*Autor: Martinez Ticona Juan de Dios Abad*/
+
+/*Hoja de estilos para la parte de informaciones "cursos de
+  capacitaciones"*/
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infoIns {
+    margin: 20px;
+}
+
+.infoIns img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #647E8E;
+}
+
+
+#info a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 170px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 15px;
+    border: 3px solid #fff;
+}
+
+@media (min-width:480px){
+    .infoIns {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px){
+    .infoIns {
+        width: auto;
+    }
+}

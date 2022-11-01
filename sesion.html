@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/sesion.css">
+    <script type="text/javascript" src="js/indexdb.js"></script>
+</head>
+<body background="img/fondo4editado2.jpg">
+    <form action="#">
+        <div id="login-box">
+            <h1>Iniciar sesión</h1> <!-- El título de Inicio de sesión -->
+
+            <div class="form">
+                <div class="item"> <!-- parte de nombre de usuario-->
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <input type="text" placeholder="usuario" name="usuario" id="usuario"> <!-- Entrada de nombre de usuario realizada por cuadro de texto -->
+                </div>
+                
+                <div class="item"> <!-- parte de la contraseña -->
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    <input type="password" placeholder="contraseña" name="pass" id="pass"> <!-- Entrada de contraseña usando el cuadro de texto de contraseña -->
+                </div>
+
+            </div>
+            <!--<a href="#" onclick="devolverusuario();">INICIAR SESIÓN</a>-->
+            <button  onclick="devolverusuario();">Ingresar</button> <!-- Botón de inicio de sesión implementado con el botón -->
+            <!--<button type="submit" onclick="insertar();">Ingresar</button>--> <!-- Botón de inicio de sesión implementado con el botón -->
+        </div>
+    </form>
+    
+</body>
+</html>

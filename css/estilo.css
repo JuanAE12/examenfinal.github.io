@@ -1,0 +1,115 @@
+/*Autor: Martinez Ticona Juan de Dios Abad
+  2"B" Sistemas informáticos*/
+
+/*Hoja de estilos para el documento general del html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: #ffdd90;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 95%;
+    margin: auto;
+}
+
+h1{
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+
+section {
+    width: 100%;
+}
+
+#bienvenidos {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.copy {
+    font-size: 20px;
+    width: 370px;
+}
+
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+#VisionyMision h2,p {
+    text-align: center;
+}
+
+#VisionyMision .contenedor {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #F3CF7D;
+}
+
+#VisionyMision article {
+	width: 550px;
+    margin: 20px;
+}
+
+/*responsive para ordenador*/
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1200px;
+    }
+}
+
+/*responsive para tablet*/
+@media (min-width:768px){
+    .sociales {
+        width: auto;
+    }
+    
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
